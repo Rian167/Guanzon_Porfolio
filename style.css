@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #fef8f3;
+    color: #333;
+  }
+   
+  header {
+    background-color: #94785d;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+   
+  header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  header li {
+    margin: 0 1rem;
+  }
+   
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+   
+  .hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: dark burlywood;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+   
+  .hero h1, .hero h2 {
+    font-family: 'Georgia', serif;
+  }
+   
+  section {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+   
+  h2 {
+    color: #94785d;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+   
+  .hobby-grid, .any-grid, .skills-grid, .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+   
+  .hobby-card, .any-card, .skill-card {
+    background: #fdf4ec;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+   
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+   
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+   
+  input, textarea, button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   
+  button {
+    background-color: #94785d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+   
+  button:hover {
+    background-color: #7a624d;
+  }
+   
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
